@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="163.0" prefWidth="583.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="controller.ReceiveDocAlertController">
+   <children>
+      <Label layoutX="105.0" layoutY="38.0" prefHeight="17.0" prefWidth="314.0" text=" El dispositivo ****** desea compartir el" />
+      <ImageView fitHeight="58.0" fitWidth="63.0" layoutX="32.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Alerta.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="108.0" layoutY="59.0" prefHeight="17.0" prefWidth="314.0" text="documento ******* con el dispositivo" />
+      <Label layoutX="105.0" layoutY="76.0" prefHeight="17.0" prefWidth="314.0" text="*******.dddd" />
+      <Button fx:id="btnAcceptDoc" layoutX="105.0" layoutY="112.0" mnemonicParsing="false" onAction="#clickAcceptDoc" text="Aceptar" />
+      <Button fx:id="btnCancelDoc" layoutX="180.0" layoutY="112.0" mnemonicParsing="false" onAction="#clickCancelDoc" text="Cancelar" />
+   </children>
+</AnchorPane>

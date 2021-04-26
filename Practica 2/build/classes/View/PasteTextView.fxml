@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="318.0" prefWidth="519.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="controller.PasteTextController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Pegar Texto">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="71.0" text="Texto:" />
+      <TextArea fx:id="txtPasteText" layoutX="140.0" layoutY="71.0" prefHeight="144.0" prefWidth="332.0" promptText="Colocar aqui el texto" />
+      <Separator layoutX="14.0" layoutY="237.0" prefHeight="10.0" prefWidth="495.0" />
+      <Button fx:id="btnPaste" layoutX="140.0" layoutY="259.0" mnemonicParsing="false" onAction="#clickPaste" text="Pegar" />
+      <Button fx:id="btnCancel" layoutX="206.0" layoutY="259.0" mnemonicParsing="false" onAction="#clickCancel" text="Cancelar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+Tipo de dispositivo,Numero de telefono,Dispositivo asociado,Correo electronico,Nombre del dispositivo,Visible,Encendido
+Computadora Portatil,,,benjamin.salguero@outlook.es,JBEnja,true,true
+Tablet,,,jose@live.com,disp1,true,true
+Computadora Portatil,,,mendez@live.com,disp2,false,true
+Tablet,,,mendez@live.com,disp3,true,true
+SmartWatch,,,mendez@live.com,disp4,false,false
+Tablet,,,dsadas,dasdsa,true,true
+Tablet,,,disp10@gmail.com,disp10,true,false

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="519.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceiveDocController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Recibir Documento">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView layoutX="14.0" layoutY="50.0" prefHeight="311.0" prefWidth="492.0">
+        <columns>
+          <TableColumn fx:id="columNameDoc" prefWidth="241.0" text="Nombre del documento" />
+          <TableColumn fx:id="columDeviceSend" prefWidth="250.0" text="Dispositivo remitente" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
